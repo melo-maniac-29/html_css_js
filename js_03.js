@@ -1,6 +1,7 @@
 let user = {
-	name: "allen",
-	age: 19
+	name: "aleena",
+	age: 19,
+    gender: "female"
 }
 
 console.log("allen age is " + user.age);
@@ -12,7 +13,11 @@ console.log(user["age"]);
 
 
 function greet(user){
-    console.log("hi "+user.name+" your age is "+user.age);
+    if(user.gender=="male"){
+    console.log("mr "+user.name+" your age is "+user.age);
+    }else{
+        console.log("mrs "+user.name+" your age is "+user.age);
+    }
 }
 
 greet(user);
