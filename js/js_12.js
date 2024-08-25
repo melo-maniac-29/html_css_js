@@ -55,3 +55,21 @@ console.log(calc.add());
 console.log(calc.sub());
 console.log(calc.div());
 console.log(calc.mul());
+
+
+const day = new Date();
+console.log(day.getDay(),day.getMonth(),day.getFullYear());
+
+//date and time
+
+
+
+const map = new Map();
+map.set("name","john");
+map.set("age",20);
+map.set("city","new york");
+
+
+console.log(map.get("name"));
+console.log(map.has("age"));
+console.log(map.delete("city"));
