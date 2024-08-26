@@ -15,7 +15,7 @@ function waitfor3seconds(resolve){
 }
 
 function setTimeoutpromisified(){
-    return new promise;
+    return new Promise(waitfor3seconds);
 }
 
 function main(){
