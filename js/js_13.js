@@ -8,3 +8,11 @@ function callback(){
 }
 
 setTimeoutpromisified(3000).then(callback);
+
+
+
+// function callback(){
+//     console.log("callback");
+// }
+
+//setTimeoutpromisified(3000).then(callback);
